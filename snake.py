@@ -19,3 +19,4 @@ class Snake(Reptile):
 # print(nagini.use_tongue())
 # print(nagini.cold_blooded)  # Also has access to attributes from Reptile, the parent class
 # print(nagini.breathe())  # And can ALSO access things from Animal, the Parent of Reptile
+# So we have double inherited and encapsulated functions in parent classes
