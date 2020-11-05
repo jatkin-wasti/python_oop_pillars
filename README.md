@@ -3,7 +3,7 @@
 - Creating an Animal class as our Parent class
 ### Step 2:
 - Creating a Reptile class as a Child class of Animal
-- Why? So that we can Inherit behaviour (functions) from the Parent class
+- Why? So that we can Inherit behaviour (functions) and characteristics (variables) from the Parent class
 - This uses **Abstraction**
 ### Step 3:
 - Creating a Snake class as a Child class of Reptile
