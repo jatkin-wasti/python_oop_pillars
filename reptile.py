@@ -21,6 +21,6 @@ class Reptile(Animal):
 
 
 # Creating an object of our Reptile class to utilise the OOP functionalities
-reptile_object = Reptile()
-print(reptile_object.move())  # It can access this method from the Animal (Parent) class through inheritance
-print(reptile_object.seek_heat())  # While also having all of the functionality of the Reptile class
+# reptile_object = Reptile()
+# print(reptile_object.move())  # It can access this method from the Animal (Parent) class through inheritance
+# print(reptile_object.seek_heat())  # While also having all of the functionality of the Reptile class
