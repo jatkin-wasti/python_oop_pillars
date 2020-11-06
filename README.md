@@ -59,3 +59,49 @@ class Reptile(Animal):
 or from a different/imported file
 - We will create 2 files and use ```__name__``` and ```__main__``` in both files to show the
 the difference in outcome
+## Getters and Setters
+```
+class Student:
+    def __init__(self, name, company):
+        self.name = name
+        self.company = company
+```
+- getters method with hidden information
+```
+        def getstudent(self, value):
+            self.__name  # __ is called dunder, its used to hide the data
+```
+- defining a setters function
+```
+        def setstudent(self, value):
+            self.__name = value
+```
+**Second Iteration**
+```
+class Student:
+    def __init__(self, name, company):
+        self.name = name
+        self.company = company
+```
+- Using @property decorator
+```
+@property  
+        # function or a class
+        def Student(self, value):
+            print("This is a getter method. Calling @student.student method")
+            self.__name  # __ is called dunder, its used to hide the data
+```
+- A decorator in python is any callable python object that is used to modify a function
+- Creating the setter with a decorator
+```
+@Student.setter
+        def Student(self, value):
+            print("This is a setter method")
+            self.__name = value
+```
+- Creating an object with required information
+```
+student = Student("Jamie", "Sparta Global")
+print("Student name is " + student.name)
+print("Student works in " + student.company)
+```
